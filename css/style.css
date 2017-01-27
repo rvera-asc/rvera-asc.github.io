@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Raleway');
+
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	color: #333;
+	background-color: #fff;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0px 0px 10px 0px;
+	font-weight: normal;
+	line-height: 1.2;
+	color: inherit;
+	font-family: 'Playfair Display', sans-serif;
+}
+
+h1, h2 {
+	line-height: 2.0;
+}
+
+#header {
+	display:inline;
+	width: 50%;
+}
+
+.navbar-brand {
+	font-size: 36px;
+}
+
+.intro-section {
+    height: 100%;
+    text-align: center;
+    background: #fff;
+}
+
+.about-section {
+    height: 100%;
+    text-align: center;
+    background: #fff;
+}
+
+.skills-section {
+    height: 100%;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section {
+    height: 100%;
+    text-align: center;
+    background: #fff;
+}
+
+.project-img {
+	display: inline;
+	height: 125px;
+}
+
+.logo {
+	display: inline;
+	height: 200px;
+}
+
+.top-buffer { 
+	margin-top:20px; 
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 0px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
